@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mQeWPU0Hfzv5talkUESgWqUxCLP6JWUQN+IzI4YONhC7b8wPObxlr56kFUITBp3RS9YLEXmFKXijei1HZr0brg==",
+  "dgSpecHash": "fbgcD988VPSvH7LKmMCW4K/z5iI/ot2IGQ22/EfBzeIevWLieMisOgEwQFpWhOwU4N7rKQC4lh7bYfV++zuMYA==",
   "success": true,
-  "projectFilePath": "E:\\Programming\\ITI .NET\\ASP.NET Core MVC\\Lab\\Ali-Abdulsalam-Elshorpagi-MCV-Labs\\Tasks\\Tasks.csproj",
+  "projectFilePath": "E:\\Programming\\Git_Hub\\Student-Department-System\\Tasks.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

@@ -1,1 +1,1 @@
-# Student-Department-System
+# Student Department System
