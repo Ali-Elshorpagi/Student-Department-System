@@ -1,0 +1,41 @@
+﻿@model Student
+
+@{
+    Layout = "_Layoutty";
+    ViewData["Title"] = "Create";
+}
+
+<h1 class="alert alert-success text-center">Adding Student</h1>
+<form asp-action="create" asp-controller="student" method="post" class="text-center col-md-3 mx-auto">
+    <div class="form-floating mb-3">
+        <input class="form-control" placeholder="Full Name" asp-for="Name"><span asp-validation-for="Name"></span>
+        <label asp-for="Name">Full Name</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input class="form-control" placeholder="Age" asp-for="Age"><span asp-validation-for="Age"></span>
+        <label asp-for="Age">Age</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input class="form-control" placeholder="name@example.com" asp-for="Email"><span asp-validation-for="Email"></span>
+        <label asp-for="Email">Email</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input class="form-control" placeholder="Password" asp-for="Password"><span asp-validation-for="Password"></span>
+        <label asp-for="Password">Password</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input class="form-control" placeholder="Confirm Password" asp-for="CPassword"><span asp-validation-for="CPassword"></span>
+        <label asp-for="CPassword">Confirm Password</label>
+    </div>
+    <select class="form-select mb-3" aria-label="Default select example" asp-for="DeptId" asp-items=" ViewBag.depts">
+        <option selected>Select Department ID</option>
+    </select><span asp-validation-for="DeptId"></span>
+    <br />
+    <input type="submit" value="Add" class="btn btn-success" />
+    <input type="reset" value="Reset" class="btn btn-warning" />
+    <a asp-action="index" asp-controller="student" class="btn btn-danger">Cancel</a>
+</form>
+@section Scripts{
+<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+}

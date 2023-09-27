@@ -1,0 +1,16 @@
+﻿@model Department
+
+@{
+    Layout = "_Layoutty";
+    ViewData["Title"] = "Update";
+}
+
+<h1 class="alert alert-danger text-center">Updating Department</h1>
+<form method="post" class="text-center col-md-3 mx-auto">
+    <div class="form-floating mb-3">
+        <input class="form-control" placeholder="Name" asp-for="Name"><span asp-validation-for="Name"></span>
+        <label asp-for="Name">Name</label>
+    </div>
+    <input type="submit" value="Save" class="btn btn-warning" />
+    <a asp-action="index" asp-controller="department" class="btn btn-danger">Cancel</a>
+</form>

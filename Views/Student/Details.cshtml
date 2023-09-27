@@ -1,0 +1,30 @@
+﻿@model Student
+
+@{
+    Layout = "_Layoutty";
+    ViewData["Title"] = "Details";
+}
+    
+<h1 class="alert alert-info text-center">Student Details</h1>
+<table class="table table-bordered text-center">
+    <thead>
+        <tr class="p-3 bg-success text-white">
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>Department</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.Id</td>
+            <td>@Model.Name</td>
+            <td>@Model.Age</td>
+            <td>@Model.Email</td>
+            <td>@Model.Department?.Name</td>
+        </tr>
+    </tbody>
+</table>
+<a asp-action="index" asp-controller="student" asp-route-id="@Model.Id" class="btn btn-primary">Back</a>
+<a asp-action="update" asp-controller="student" asp-route-id="@Model.Id" class="btn btn-danger">Update</a>

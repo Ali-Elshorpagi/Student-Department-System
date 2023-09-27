@@ -1,0 +1,57 @@
+﻿@* @model Department *@
+@{
+    Layout = "_Layoutty";
+    ViewData["Title"] = "Details";
+}
+
+<h1 class="alert alert-info text-center">Department Details</h1>
+<table class="table table-bordered text-center">
+    <thead>
+        <tr class="p-3 bg-primary text-white">
+            <th>ID</th>
+            <th>Name</th>
+            <th>Students Number</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@ViewBag.viewModel.department.Id</td>
+            <td>@ViewBag.viewModel.department.Name</td>
+            <td>@ViewBag.viewModel.Students.Count</td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<br />
+@if (ViewBag.viewModel.Students.Count != 0)
+{
+    <h3>Students Info</h3>
+    <table class="table table-bordered text-center">
+        <thead>
+            <tr class=" bg-success">
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+                @foreach (var item in ViewBag.viewModel.Students)
+                 {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Name</td>
+                        <td>@item.Age</td>
+                        <td>@item.Email</td>
+                    </tr>
+                }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="blockquote text-white text-center bg-danger">There are no Students in this Department</p>
+}
+
+<a asp-action="index" asp-controller="department"  class="btn btn-primary">Back</a>
+<a asp-action="update" asp-controller="department" asp-route-id="@ViewBag.viewModel.department.Id" class="btn btn-danger">Update</a>

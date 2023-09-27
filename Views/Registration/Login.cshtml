@@ -1,0 +1,28 @@
+﻿@model Tasks.ViewModels.LoginViewModel
+@{
+    Layout = "_RegistrationLayout";
+    ViewData["Title"] = "Login";
+}
+
+<h1 class="alert alert-info text-center">Student Login</h1>
+@if (TempData["NotValid"] is not null)
+{
+    <div class="alert alert-danger">
+        @TempData["NotValid"]
+    </div>
+}
+
+<form asp-controller="Registration" asp-action="Login" method="post" class="text-center col-md-4 mx-auto">
+    <div class="form-floating mb-3">
+        <input class="form-control" placeholder="Username" asp-for="Username" />
+        <span asp-validation-for="Username" class="text-danger"></span>
+        <label asp-for="Username">Username</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input class="form-control" placeholder="Password" asp-for="Password" type="password" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+        <label asp-for="Password">Password</label>
+    </div>
+    <button type="submit" class="btn btn-success">Login</button>
+    <a asp-action="register" asp-controller="registration" class="btn btn-primary">SignUp</a>
+</form>

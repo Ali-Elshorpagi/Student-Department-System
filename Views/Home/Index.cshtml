@@ -1,0 +1,49 @@
+﻿@{
+    Layout = "_RegistrationLayout";
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .btn-very-huge {
+        font-size: 1rem; 
+        padding: 20px 40px; 
+    }
+</style>
+<h1 class="text-center display-4">Welcome To Student & Department System</h1>
+<br />
+<br />
+<p class="blockquote text-white text-center bg-warning">Where do you want to go</p>
+<br />
+<div class="container text-center row">
+        <div class="col-md-6">
+        <a asp-action="index" asp-controller="student" class="btn btn-outline-primary btn-very-huge btn-block">Students</a>
+        </div>
+        <div class="col-md-6">
+        <a asp-action="index" asp-controller="department" class="btn btn-outline-primary btn-very-huge btn-block">Departments</a>
+        </div>
+</div>
+<br />
+<br />
+<div class="container text-center row">
+    <div class="col-md-6">
+        <a asp-action="create" asp-controller="student" class="btn btn-outline-success btn-very-huge btn-block">Create Student</a>
+    </div>
+    <div class="col-md-6">
+        <a asp-action="create" asp-controller="department" class="btn btn-outline-success btn-very-huge btn-block">Create Department</a>
+    </div>
+</div>
+<br />
+<br />
+<br />
+<br />
+<div class="text-sm border-top text-muted mt-5">
+    <p>
+        About: <br />
+        Welcome to our comprehensive School Management System.
+        Our project empowers administrators with the ability to effortlessly
+        manage students and departments through a range of features.
+        With our system, you can seamlessly create, remove, update, and delete student profiles
+        and department records. Whether you're enrolling new students, making updates to existing data,
+        or handling departmental changes, our intuitive interface simplifies these processes.
+    </p>
+</div>

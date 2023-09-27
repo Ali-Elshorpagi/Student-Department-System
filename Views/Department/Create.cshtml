@@ -1,0 +1,21 @@
+﻿@model Department
+
+@{
+    Layout = "_Layoutty";
+    ViewData["Title"] = "Create";
+}
+
+<h1 class="alert alert-success text-center">Adding Department</h1>
+<form asp-action="create" asp-controller="department" method="post" class="text-center col-md-3 mx-auto">
+     <div class="form-floating mb-3">
+        <input class="form-control" placeholder="ID" asp-for="Id"><span asp-validation-for="Id"></span>
+        <label asp-for="Id">ID</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input class="form-control" placeholder="Name" asp-for="Name"><span asp-validation-for="Name"></span>
+        <label asp-for="Name">Name</label>
+    </div>
+    <input type="submit" value="Add" class="btn btn-success" />
+    <input type="reset" value="Reset" class="btn btn-warning" />
+    <a asp-action="index" asp-controller="department" class="btn btn-danger">Cancel</a>
+</form>

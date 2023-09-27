@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Department>
+
+@{
+    Layout = "_Layoutty";
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    .select-small {
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+    }
+
+    .no-link-style {
+        text-decoration: none;
+        color: white;
+    }
+</style>
+
+<h1 class="alert alert-info text-center">Departments Info</h1>
+<form method="post" asp-action="index" asp-controller="department" class="row mb-3 col-md-6 offset-md-3">
+    <div class="input-group">
+        <select name="searchType" class="select-small">
+            <option value="Name">Search by Name</option>
+            <option value="ID">Search by ID</option>
+        </select>
+        <input type="text" name="searchQuery" class="form-control" placeholder="Search" value="@ViewBag.SearchQuery">
+        <button type="submit" class="btn btn-success">Search</button>
+    </div>
+</form>
+@if (ViewBag.isExist == true)
+{
+    <table class="text-center table table-hover table-bordered">
+        <thead>
+            <tr class="p-3 bg-primary text-white">
+                <th>ID</th>
+                <th>
+                    <a class="no-link-style" asp-action="index" asp-controller="department" asp-route-sort=true asp-route-searchType="Name" asp-route-searchQuery="@ViewBag.SearchQuery">Name</a>
+                </th>
+                <th>Students Number</th>
+                <th>Optional</th>   
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Students?.Count()</td>
+                    <td>
+                        <a asp-action="details" asp-controller="department" asp-route-id="@item.Id" class="btn btn-info">Details</a>
+                        <a asp-action="update"  asp-controller="department" asp-route-id="@item.Id" class="btn btn-primary">Update</a>
+                        <a asp-action="delete" asp-controller="department" asp-route-id="@item.Id" onclick="return confirm ('Are you sure about deleting this Department?')" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="blockquote text-white text-center bg-danger">There are no Departments matched your search</p>
+}
+<a asp-action="create" asp-controller="department" class="btn btn-success">Adding Department <span class="badge bg-info">@Model.Count()</span></a>

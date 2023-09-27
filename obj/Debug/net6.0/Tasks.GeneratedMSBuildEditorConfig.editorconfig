@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Tasks
+build_property.RootNamespace = Tasks
+build_property.ProjectDir = E:\Programming\ITI .NET\ASP.NET Core MVC\Lab\Ali-Abdulsalam-Elshorpagi-MCV-Labs\Tasks\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Programming\ITI .NET\ASP.NET Core MVC\Lab\Ali-Abdulsalam-Elshorpagi-MCV-Labs\Tasks
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Programming/ITI .NET/ASP.NET Core MVC/Lab/Ali-Abdulsalam-Elshorpagi-MCV-Labs/Tasks/Views/Department/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programming/ITI .NET/ASP.NET Core MVC/Lab/Ali-Abdulsalam-Elshorpagi-MCV-Labs/Tasks/Views/Department/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programming/ITI .NET/ASP.NET Core MVC/Lab/Ali-Abdulsalam-Elshorpagi-MCV-Labs/Tasks/Views/Department/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programming/ITI .NET/ASP.NET Core MVC/Lab/Ali-Abdulsalam-Elshorpagi-MCV-Labs/Tasks/Views/Department/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programming/ITI .NET/ASP.NET Core MVC/Lab/Ali-Abdulsalam-Elshorpagi-MCV-Labs/Tasks/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programming/ITI .NET/ASP.NET Core MVC/Lab/Ali-Abdulsalam-Elshorpagi-MCV-Labs/Tasks/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programming/ITI .NET/ASP.NET Core MVC/Lab/Ali-Abdulsalam-Elshorpagi-MCV-Labs/Tasks/Views/Registration/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programming/ITI .NET/ASP.NET Core MVC/Lab/Ali-Abdulsalam-Elshorpagi-MCV-Labs/Tasks/Views/Registration/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programming/ITI .NET/ASP.NET Core MVC/Lab/Ali-Abdulsalam-Elshorpagi-MCV-Labs/Tasks/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programming/ITI .NET/ASP.NET Core MVC/Lab/Ali-Abdulsalam-Elshorpagi-MCV-Labs/Tasks/Views/Shared/Errorring.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9ycmluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programming/ITI .NET/ASP.NET Core MVC/Lab/Ali-Abdulsalam-Elshorpagi-MCV-Labs/Tasks/Views/Shared/_Layoutty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXR0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programming/ITI .NET/ASP.NET Core MVC/Lab/Ali-Abdulsalam-Elshorpagi-MCV-Labs/Tasks/Views/Shared/_RegistrationLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZWdpc3RyYXRpb25MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programming/ITI .NET/ASP.NET Core MVC/Lab/Ali-Abdulsalam-Elshorpagi-MCV-Labs/Tasks/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programming/ITI .NET/ASP.NET Core MVC/Lab/Ali-Abdulsalam-Elshorpagi-MCV-Labs/Tasks/Views/StudentDepartment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudERlcGFydG1lbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programming/ITI .NET/ASP.NET Core MVC/Lab/Ali-Abdulsalam-Elshorpagi-MCV-Labs/Tasks/Views/Student/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programming/ITI .NET/ASP.NET Core MVC/Lab/Ali-Abdulsalam-Elshorpagi-MCV-Labs/Tasks/Views/Student/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programming/ITI .NET/ASP.NET Core MVC/Lab/Ali-Abdulsalam-Elshorpagi-MCV-Labs/Tasks/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programming/ITI .NET/ASP.NET Core MVC/Lab/Ali-Abdulsalam-Elshorpagi-MCV-Labs/Tasks/Views/Student/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programming/ITI .NET/ASP.NET Core MVC/Lab/Ali-Abdulsalam-Elshorpagi-MCV-Labs/Tasks/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programming/ITI .NET/ASP.NET Core MVC/Lab/Ali-Abdulsalam-Elshorpagi-MCV-Labs/Tasks/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programming/ITI .NET/ASP.NET Core MVC/Lab/Ali-Abdulsalam-Elshorpagi-MCV-Labs/Tasks/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-6x51apsneh
