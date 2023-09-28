@@ -5,7 +5,8 @@ using Tasks.ViewModels;
 
 namespace Tasks.BLL
 {
-    public class StudentBLL
+    // Repository Design Pattern
+    public class StudentBLL : IStudent
     {
         SchoolContext db = new SchoolContext();
         public List<Student> GetAll()

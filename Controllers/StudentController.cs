@@ -10,11 +10,15 @@ namespace Tasks.Controllers
     [ExceptionsHandler]
     public class StudentController : Controller
     {
-        StudentBLL stBll = new StudentBLL();
+        IStudent studentBLL = new StudentBLL();
         DepartmentBLL deptBLL = new DepartmentBLL();
+        public StudentController(IStudent _student)
+        {
+            studentBLL = _student;
+        }
         public ViewResult Index(string searchType, string searchQuery, bool sort)
         {
-            var students = stBll.GetAll();
+            var students = studentBLL.GetAll();
             ViewBag.isExist = false;
             if (!string.IsNullOrEmpty(searchQuery))
             {
@@ -37,7 +41,7 @@ namespace Tasks.Controllers
         {
             if (id is null) // if the user doesn't enter any id
                 return BadRequest();
-            var student = stBll.GetByID(id.Value);
+            var student = studentBLL.GetByID(id.Value);
             if (student is null) // there is no student has this 'id'
                 return NotFound();
             return View(student);
@@ -53,9 +57,9 @@ namespace Tasks.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (stBll.IsEmailUnique(student.Email))
+                if (studentBLL.IsEmailUnique(student.Email))
                 {
-                    stBll.Add(student);
+                    studentBLL.Add(student);
                     return RedirectToAction("Index", "Student");
                 }
                 else { ModelState.AddModelError("Email", "Email address is already exists"); }
@@ -67,10 +71,10 @@ namespace Tasks.Controllers
         {
             if (id is null)
                 return BadRequest();
-            Student std = stBll.GetByID(id.Value);
+            Student std = studentBLL.GetByID(id.Value);
             if (std is null)
                 return NotFound();
-            stBll.Delete(std);
+            studentBLL.Delete(std);
             return RedirectToAction("Index");
         }
         [HttpGet]
@@ -78,7 +82,7 @@ namespace Tasks.Controllers
         {
             if (id is null)
                 return BadRequest();
-            Student std = stBll.GetByID(id.Value);
+            Student std = studentBLL.GetByID(id.Value);
             if (std is null)
                 return NotFound();
             ViewBag.Depts = new SelectList(deptBLL.GetAll(), "Id", "Name", std.DeptId);
@@ -87,7 +91,7 @@ namespace Tasks.Controllers
         [HttpPost]
         public IActionResult Update(Student std)
         {
-            stBll.Edit(std);
+            studentBLL.Edit(std);
             return RedirectToAction("Index");
         }
     }

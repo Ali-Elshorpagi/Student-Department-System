@@ -1,3 +1,5 @@
+using Tasks.BLL;
+
 namespace Tasks
 {
     public class Program
@@ -8,6 +10,7 @@ namespace Tasks
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddSingleton<IStudent, StudentBLL>(); 
 
             var app = builder.Build();
 
