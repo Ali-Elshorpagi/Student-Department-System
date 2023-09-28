@@ -86,5 +86,12 @@ namespace Tasks.Controllers
             ViewBag.viewModel = viewModel;
             return View();
         }
+        public IActionResult DeleteStudentFromDepartment(int? deptId, int? studentId)
+        {
+            var student = stBll.GetByID(studentId.Value);
+            student.DeptId = null;
+            stBll.Edit(student);
+            return RedirectToAction("Details", new { id = deptId });
+        }
     }
 }

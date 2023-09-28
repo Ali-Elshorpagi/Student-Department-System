@@ -26,7 +26,7 @@ namespace Tasks.Models
         public string CPassword { get; set; }
         [ForeignKey("Department")]
         //[Display(Name="Department")]
-        public int DeptId { get; set; }
+        public int? DeptId { get; set; }
         public virtual Department Department { get; set; }
         public override string ToString()
         {

@@ -33,6 +33,7 @@
                 <th>Name</th>
                 <th>Age</th>
                 <th>Email</th>
+                <th>Optional</th>
             </tr>
         </thead>
         <tbody>
@@ -43,6 +44,9 @@
                         <td>@item.Name</td>
                         <td>@item.Age</td>
                         <td>@item.Email</td>
+                        <td>
+                        <a asp-action="DeleteStudentFromDepartment" asp-controller="Department" asp-route-studentId="@item.Id" asp-route-deptId="@ViewBag.viewModel.department.Id" onclick="return confirm ('Are you sure about deleting this Student from this Department?')" class="btn btn-danger">Delete</a>
+                        </td>
                     </tr>
                 }
         </tbody>
