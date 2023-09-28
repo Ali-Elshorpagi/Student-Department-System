@@ -14,24 +14,13 @@
    1. [Update Department](#9) 
    1. [Student Details](#10) 
    1. [Department Details](#11) 
-   1. [Binary Tree](#12) 
-   1. [Binary Search Tree ( Binary Node )](#13) 
-   1. [Binary Search Tree](#14) 
-   1. [Min Binary Heap](#15) 
-   1. [Max Binary Heap](#16)
-   1. [AVL Tree ( Binary Node )](#17) 
-   1. [AVL Tree](#18) 
-   1. [Priority Queue Heap Based](#19) 
-   1. [Priority Queue AVL Tree Based](#20) 
-   1. [Trie Tree ( Letter )](#21) 
-   1. [Hash Table](#22) 
 
 ## Contents:
 
 - > <a id="1"></a>[**Login**]
-  -(./Images/Login.png)
+  - ![Login](./Images/Login.png)
 - > <a id="2"></a>[**Sign Up**]
-  -(./Images/SignUp.png)
+  - ![Sign Up](./Images/SignUp.png)
 - > <a id="3"></a>[**Home Page**]
 
 - > <a id="4"></a>[**Students List**]
