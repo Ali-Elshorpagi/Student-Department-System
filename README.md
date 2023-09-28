@@ -29,9 +29,9 @@
 ## Contents:
 
 - > <a id="1"></a>[**Login**]
-  -[Login](./Images/Login.png)
+  -(./Images/Login.png)
 - > <a id="2"></a>[**Sign Up**]
-  -[Sign Up](./Images/SignUp.png)
+  -(./Images/SignUp.png)
 - > <a id="3"></a>[**Home Page**]
 
 - > <a id="4"></a>[**Students List**]
