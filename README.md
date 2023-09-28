@@ -23,18 +23,18 @@
      - ![Sign Up](./Images/SignUp.png)
 - > <a id="3"></a>**Home Page**
 
-- > <a id="4"></a>[**Students List**]
+- > <a id="4"></a>**Students List**
 
-- > <a id="5"></a>[**Department List**]
+- > <a id="5"></a>**Department List**
 
-- > <a id="6"></a>[**Create New Student**]
+- > <a id="6"></a>**Create New Student**
 
-- > <a id="7"></a>[**Create New Depatment**]
+- > <a id="7"></a>**Create New Depatment**
 
-- > <a id="8"></a>[**Updating Student**]
+- > <a id="8"></a>**Updating Student**
 
-- > <a id="9"></a>[**Updating Department**]
+- > <a id="9"></a>**Updating Department**
 
-- > <a id="10"></a>[**Student Details**]
+- > <a id="10"></a>**Student Details**
 
-- > <a id="11"></a>[**Department Details**]
+- > <a id="11"></a>**Department Details**
