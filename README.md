@@ -18,23 +18,26 @@
 ## Contents:
 
 - > <a id="1"></a>**Login**
-     - ![Login](./Images/Login.png)
+     - ![Login](./Images/login.png)
 - > <a id="2"></a>**Sign Up**
-     - ![Sign Up](./Images/SignUp.png)
+     - ![Sign Up](./Images/signup.png)
 - > <a id="3"></a>**Home Page**
-
+     - ![Sign Up](./Images/homepage.png)
 - > <a id="4"></a>**Students List**
-
+     - ![Sign Up](./Images/studentindex.png)
 - > <a id="5"></a>**Department List**
-
+     - ![Sign Up](./Images/departmentindex.png)
 - > <a id="6"></a>**Create New Student**
-
+     - ![Sign Up](./Images/createstudent.png)
 - > <a id="7"></a>**Create New Depatment**
-
+     - ![Sign Up](./Images/createdepartment.png)
 - > <a id="8"></a>**Updating Student**
-
+     - ![Sign Up](./Images/updatestudent.png)
 - > <a id="9"></a>**Updating Department**
-
+     - ![Sign Up](./Images/updatedepartment.png)
 - > <a id="10"></a>**Student Details**
-
+     - ![Sign Up](./Images/studentdetails.png)
 - > <a id="11"></a>**Department Details**
+     - ![Sign Up](./Images/departmentdetails0.png.png)
+     - ![Sign Up](./Images/departmentdetails1.png.png)
+

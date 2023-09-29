@@ -10,7 +10,7 @@ namespace Tasks
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-            builder.Services.AddSingleton<IStudent, StudentBLL>(); 
+            builder.Services.AddTransient<IStudent, StudentBLL>(); 
 
             var app = builder.Build();
 

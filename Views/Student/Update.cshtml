@@ -20,14 +20,14 @@
         <label asp-for="Email">Email</label>
     </div>
     <div class="form-floating mb-3">
-        <input class="form-control" placeholder="Password" asp-for="Password" value="@Model.Password"><span asp-validation-for="Password"></span>
+        <input class="form-control" placeholder="Password" value="Password" asp-for="Password"><span asp-validation-for="Password"></span>
         <label asp-for="Password">Password</label>
     </div>
     <div class="form-floating mb-3">
-        <input class="form-control" placeholder="Confirm Password" asp-for="CPassword" value="@Model.CPassword"><span asp-validation-for="CPassword"></span>
+        <input class="form-control" placeholder="Confirm Password" value="CPassword" asp-for="CPassword"><span asp-validation-for="CPassword"></span>
         <label asp-for="CPassword">Confirm Password</label>
     </div>
-    <select class="form-select mb-3" aria-label="Default select example" asp-for="DeptId" asp-items=" ViewBag.depts">
+    <select class="form-select mb-3" aria-label="Default select example" asp-for="DeptId" asp-items=" ViewBag.Depts">
     </select><span asp-validation-for="DeptId"></span>
     <br />
     <input type="submit" value="Save" class="btn btn-warning" />

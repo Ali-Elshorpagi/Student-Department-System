@@ -82,11 +82,11 @@ namespace Tasks.Controllers
         {
             if (id is null)
                 return BadRequest();
-            Student std = studentBLL.GetByID(id.Value);
-            if (std is null)
+            Student student = studentBLL.GetByID(id.Value);
+            if (student is null)
                 return NotFound();
-            ViewBag.Depts = new SelectList(deptBLL.GetAll(), "Id", "Name", std.DeptId);
-            return View(std);
+            ViewBag.Depts = new SelectList(deptBLL.GetAll(), "Id", "Name", student.DeptId);
+            return View(student);
         }
         [HttpPost]
         public IActionResult Update(Student std)
