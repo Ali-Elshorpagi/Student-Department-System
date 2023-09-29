@@ -4,8 +4,6 @@
 - [Description](#Description)
 - [Prerequisites](#Prerequisites)
 - [Features](#Features)
-- [Installation](#Installation)
-- [Contributing](#Contributing)
 - [Screenshots](#Screenshots)
 
 ## Description:
@@ -18,24 +16,12 @@ Imagine it like a super easy tool for teachers and office staff. They can quickl
 - [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) 
 - [Entity Framework](https://learn.microsoft.com/en-us/ef/core/get-started/overview/install)
 - [.NET Framework](https://dotnet.microsoft.com/download)
+
 ## Features:
 - Creation: Add new department or student records into the system
 - Reading: Retrieve and view department and student information
 - Updating: Update details of existing departments or student profiles
 - Deletion: Remove records from the database
-
-## Installation:
-- Clone the repository : `git clone https://github.com/Ali-Elshorpagi/Student-Department-System.git`
-- Open the project in Visual Studio
-- Build the solution
-- Run the application
-
-## Contributing:
-- Fork the repository
-- Create a new branch for your feature: `git checkout -b feature/feature-name`
-- Commit your feature: `git commit -m "Add feature-name"`
-- Push to your branch: `git push origin feature/feature-name`
-- Create a pull request
 
 ## Screenshots:
 
