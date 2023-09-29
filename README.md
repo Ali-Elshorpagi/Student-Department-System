@@ -41,8 +41,7 @@ Imagine it like a super easy tool for teachers and office staff. They can quickl
 - Run the application
 
 ## Contributing:
-**If you'd like to contribute to this project, please follow these guidelines:**
-- Fork the repository.
+- Fork the repository
 - Create a new branch for your feature: `git checkout -b feature/your-feature-name`
 - Commit your feature: `git commit -m "Add feature"`
 - Push to your branch: `git push origin feature/your-feature-name`
