@@ -3,20 +3,10 @@
 ## Table of Contents:
 - [Description](#Description)
 - [Prerequisites](#Prerequisites)
-- [Features](#features)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [Login](#1) 
-- [Sign Up](#2) 
-- [Home Page](#3) 
-- [Students List](#4) 
-- [Department List](#5) 
-- [Create New Student](#6) 
-- [Create New Depatment](#7) 
-- [Update Student](#8) 
-- [Update Department](#9) 
-- [Student Details](#10) 
-- [Department Details](#11) 
+- [Features](#Features)
+- [Installation](#Installation)
+- [Contributing](#Contributing)
+- [Screenshots](#Screenshots)
 
 ## Description:
 The CRUD Project - Student Department System is a helpful computer program made with ASP.NET MVC. It helps schools and colleges keep track of students and departments easily. This system makes it simple to add, view, update, and remove student and department info.
@@ -35,7 +25,7 @@ Imagine it like a super easy tool for teachers and office staff. They can quickl
 - Deletion: Remove records from the database
 
 ## Installation:
-- Clone the repository : `git clone https://github.com/ammar-gamal/Student-Department-System.git`
+- Clone the repository : `git clone https://github.com/Ali-Elshorpagi/Student-Department-System.git`
 - Open the project in Visual Studio
 - Build the solution
 - Run the application
