@@ -32,9 +32,9 @@ Imagine it like a super easy tool for teachers and office staff. They can quickl
 
 ## Contributing:
 - Fork the repository
-- Create a new branch for your feature: `git checkout -b feature/your-feature-name`
-- Commit your feature: `git commit -m "Add feature"`
-- Push to your branch: `git push origin feature/your-feature-name`
+- Create a new branch for your feature: `git checkout -b feature/feature-name`
+- Commit your feature: `git commit -m "Add feature-name"`
+- Push to your branch: `git push origin feature/feature-name`
 - Create a pull request
 
 ## Screenshots:
@@ -62,4 +62,3 @@ Imagine it like a super easy tool for teachers and office staff. They can quickl
 - > **Department Details**
      - ![Department Details](./Images/departmentdetails0.png)
      - ![Department Details](./Images/departmentdetails1.png)
-
