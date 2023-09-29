@@ -25,30 +25,30 @@ Imagine it like a super easy tool for teachers and office staff. They can quickl
 
 ## Prerequisites:
 - [Visual Studio](https://visualstudio.microsoft.com/downloads/)
-     - [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) 
-     - [Entity Framework](https://learn.microsoft.com/en-us/ef/core/get-started/overview/install)
-     - [.NET Framework](https://dotnet.microsoft.com/download)
+- [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) 
+- [Entity Framework](https://learn.microsoft.com/en-us/ef/core/get-started/overview/install)
+- [.NET Framework](https://dotnet.microsoft.com/download)
 ## Features:
-     - Creation: Add new department or student records into the system.
-     - Reading: Retrieve and view department and student information.
-     - Updating: Update details of existing departments or student profiles.
-     - Deletion: Remove records from the database.
+- Creation: Add new department or student records into the system.
+- Reading: Retrieve and view department and student information.
+- Updating: Update details of existing departments or student profiles.
+- Deletion: Remove records from the database.
 
 ## Installation:
-     - Clone this repository to your local machine: `git clone https://github.com/ammar-gamal/Student-Department-System.git`
-     - Open the project in Visual Studio
-     - Build the solution
-     - Run the application
+- Clone this repository to your local machine: `git clone https://github.com/ammar-gamal/Student-Department-System.git`
+- Open the project in Visual Studio
+- Build the solution
+- Run the application
 
 ## Contributing:
-     **If you'd like to contribute to this project, please follow these guidelines:**
-          - Fork the repository.
-          - Create a new branch for your changes: `git checkout -b feature/your-feature-name`
-          - Commit your changes: `git commit -m "Add feature"`
-          - Push to your branch: `git push origin feature/your-feature-name`
-          - Create a pull request.
+**If you'd like to contribute to this project, please follow these guidelines:**
+- Fork the repository.
+- Create a new branch for your changes: `git checkout -b feature/your-feature-name`
+- Commit your changes: `git commit -m "Add feature"`
+- Push to your branch: `git push origin feature/your-feature-name`
+- Create a pull request.
 
-## Contents:
+## Screenshots:
 
 - > <a id="1"></a>**Login**
      - ![Login](./Images/login.png)
